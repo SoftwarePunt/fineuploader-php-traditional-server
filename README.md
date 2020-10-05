@@ -1,3 +1,27 @@
+# Mirror repository
+⚠ This repository is a read-only, archived mirror for `fineuploader/php-traditional-server` since it has been deleted.
+
+As such, this project is unsupported **and you should probably not use this**.
+
+If you want to use this repository anyway, add it as a custom repository in your `composer.json` and use the `mirror` branch:
+
+```json
+{
+  "require": {
+    "fineuploader/php-traditional-server": "dev-mirror"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:SoftwarePunt/fineuploader-php-traditional-server.git"
+    }
+  ]
+}
+```
+
+
+
+
 # PHP Traditional Endpoint Server
 
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
